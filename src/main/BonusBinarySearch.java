@@ -11,7 +11,7 @@ public class BonusBinarySearch {
      * @param n - number to search for
      * @return index of search item if it's found, -1 if not found
      */
-    public static int binarySearch(int[] sortedNumbers, int n) {
+    public static int binarySearch(int [] sortedNumbers, int n) {
         int right = sortedNumbers.length - 1;
         int left = 0;
         while (right >= left) {
